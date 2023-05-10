@@ -16,9 +16,9 @@ using namespace std;
 	void chon_menu(int arr1[],int arr2[][KTM],int n);
 */
 //===============================================================================
-	const int KTM = 50; //mot hang so KTM = 50
 //caidat.cpp
 	//chuong trinh kiem tra so nguyen to
+	const int KTM = 50; //mot hang so KTM = 50
 	bool kt_snt(int n){
 		int dem =0;
 		for (int i=1;i<=n;i++){
@@ -249,6 +249,7 @@ int main(){
 	int n;
 	int arr1[KTM];
 	int arr2[KTM][KTM];
+	cout << "\nOn tap vui ve nhe ^^" << endl;
 	hienthi_menu();
 	chon_menu(arr1,arr2,n);
 	return 0;
